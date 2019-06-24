@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Погода в Ростове</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="/style.css"/>
+    </head>
+    <body>
+        <div class="parent" >
+            <div class="weather_icon" id="icon">
+                <img class="wheathe" id="f01" src="">
+                <img class="wheathe" id="f02" src="">
+                <img class="wheathe" id="f03" src="">
+            </div>
+            <div class="as" id="avr">
+                <div id="c01" class="temp"></div>
+                <div id="c02" class="temp"></div>
+                <div id="c03" class="temp"></div>
+            </div>
+            <button onclick="get_avr_temp()" type="button" class="btn btn-outline-info mybutton">Узнать среднюю температуру</button>
+        </div>
+
+        <script type="text/javascript" src="/main.js"></script>
+    </body>
+</html>
